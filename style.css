@@ -1,0 +1,46 @@
+/*Selector {
+	property: value;
+}*/
+
+html{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+body {
+	background-image: url(eniko-kis-1ITneZfxFgU-unsplash.JPG);
+	background-size: cover;
+}
+
+h1 {
+	/*font-size: 3em;*/
+	/*text-shadow: 5px 5px grey;*/
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	 font-size: 5em; 
+	 font-style: normal; 
+	 font-variant: normal; 
+	 font-weight: 700; 
+	 line-height: 26.4px; 
+	text-align: center;
+	color: rgb(0, 0 , 0);
+	/*font-family: 'DM Serif Display', serif;*/
+	transition: 1s;
+	text-decoration: none;
+}
+
+h1:hover {
+	transform: scale(1.1);
+}
+
+img {
+	float: left;
+}
+
+p {
+ text-align: center;
+}
+
+button{
+
+}
